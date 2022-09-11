@@ -1,0 +1,142 @@
+.WrapperFormPreRe{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+.LabelFCoti2{
+    width: 35%;
+    padding-right: 1rem;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+}
+
+.SubtitleFCoti{
+    width: 100%;
+    padding-left: 1rem;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    margin: 2rem auto 1rem;
+    color: #1d5481;
+}
+.InputFCoti{    
+    width: 65%;
+    height: 2.5rem;
+    margin: 1rem auto;
+    border: none;
+    background-color: #EBEBEB;
+    border: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+.InputFCoti select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    min-height: 100%;
+    border: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #EBEBEB;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}  
+
+.InputFCoti #no-select{
+    color: #9C9C9C;
+    font-size: 14px;
+    font-weight: 300;
+}
+.InputFCoti:after{
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    padding-right: 1rem;
+    padding-bottom: 0.4rem;
+    font-family: FontAwesome;
+    font-weight: 400;
+    content: '\f0dd';
+    color: #1d5481 ;
+    font-size: 1.5rem;
+    margin: auto;
+    min-height: 100%;
+    min-height:max-content;
+}
+
+
+.BlockRFPreRe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.RadioFCoti{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.RadioFCoti#Casa::before{
+    content: "\f015";
+    font-family: FontAwesome;
+    font-size: 1.2rem;
+    padding-right: 0.5rem;
+    color: #b4b4b4;
+}
+.RadioFCoti#Casa:checked::before{
+    color: #1d5481;
+    transition: 0.4s;
+}
+.RadioFCoti#Casa:checked ~ .LabelRFPreRe{
+    color: #1d5481;
+    transition: 0.4s;
+    font-weight: 500;
+}
+.RadioFCoti#Negocio::before{
+    content: "\f1ad";
+    font-family: FontAwesome;
+    font-size: 1.1rem;
+    padding-right: 0.5rem;
+    color: #b4b4b4;
+}
+
+.RadioFCoti#Negocio:checked::before{
+    color: #1d5481;
+    transition: 0.4s;
+}
+.RadioFCoti#Negocio:checked ~ .LabelRFPreRe{
+    color: #1d5481;
+    transition: 0.4s;
+    font-weight: 500;
+}
+.LabelRFPreRe{
+    width: 50%;
+    color: #8f8f8f;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.LabelAlert{
+    color: red;
+    width: 70%;
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-weight: 900;
+    margin: auto;
+    text-align: center;
+}

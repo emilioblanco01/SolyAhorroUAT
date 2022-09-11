@@ -1,0 +1,89 @@
+.ContainerEmpresa1{
+    width: 100%;
+    padding-left: 0.5rem;
+    background-color: #e6e7ee;
+    padding-bottom: 3rem;
+}
+
+.ContainerEmpresa2{
+    width: 100%;
+    background-color: #e6e7ee;
+}
+
+.OptionEmpresa1{
+    width: 100%;
+    padding: 0 2em;
+    padding-bottom: 1rem;
+}
+
+.OptionEmpresa2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ButtonEmpresaNormal{
+    cursor: pointer;
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1.3rem 3rem;
+    border: 0.3px solid #dadada;
+    border-radius: 5%;
+    margin: 0.5rem 0;
+}
+
+.ButtonEmpresaNormal:hover{
+    border: 0.7px solid #bdbdbd;
+}
+
+.ButtonEmpresaSelected{
+    width: 100%;
+    color: #fff;
+    background-color: #8bc540;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1rem 3rem;
+    border: 0.3px solid #dadada;
+    border-radius: 5%;
+    margin: 0.5rem 0;
+}
+
+.OptionDescription{
+    width: 100%;
+    background-color: #fff;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    font-size: 18px;
+}
+.TextDescription{
+    margin: 1.5rem 2rem;
+}
+
+@media (min-width:1000px) {
+    .ContainerEmpresa2{
+        width: 65%;
+    }
+    .OptionEmpresa1{
+        width: 65%;
+        padding: 0 7em;
+    }
+    .ButtonEmpresaNormal{
+        width: 30%;
+        margin: 0;
+        font-size: 15px;
+    }
+    .ButtonEmpresaSelected{
+        width: 30%;
+        margin: 0;
+        font-size: 15px;
+    }
+    .OptionDescription{
+        font-size: 18px;
+        height: 15vh;
+    }
+}

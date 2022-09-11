@@ -1,0 +1,91 @@
+.WrapperBCoti{
+    width: 100%;
+    height: 450px;
+    position: relative;
+    background-color: #4b763791;
+    overflow: hidden;
+}
+.ImgBCoti{
+    position: absolute;
+    z-index: 5;
+    max-height:100%;
+    min-width:100%;
+}
+.InfoBCoti{
+    position: absolute;
+    min-height:100%;
+    width: 100%;
+    z-index: 6;
+    background-color: #4b763791;
+    text-align: center;
+}
+.TitleBCoti{
+    width: 80%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 5rem auto 3rem ;
+}
+
+.TextBCoti1{
+    width: 60%;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #ffff;
+    margin: auto;
+    text-align: center;
+}
+.ContactoBCoti{
+    margin-top: 15rem;
+}
+.TextBCoti2{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #ffff;
+    margin: auto;
+    margin-bottom: 0.2rem;
+    text-align: left;
+    padding-left: 1.5rem;
+}
+.TextBCoti3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffff;
+    margin: auto;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    padding-left: 1.5rem;
+}
+.TextBCoti3 i{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #ffff;
+    margin: 1rem auto;
+    text-align: left;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+}
+/*Colors*/
+.ColorGreen1{   background-color: rgb(75, 118, 55, 0.85) }
+.ColorGreen2{   background-color: #88C540 }
+.ColorWhite{    background-color: white;}
+/*Text Color*/
+.TextColorYellow{ color:#FFC30E }
+.TextColorWhite{ color: white }
+
+/*Positions*/
+.PositionRelative{  position: relative }
+.PositionFixed{     position: fixed    }
+@media (min-width:900px) {
+    .WrapperBCoti{
+        width: 30%;
+        height: 800px;
+    }
+    .TitleBCoti{
+        width: 100%;
+    }
+    .TextBCoti1{
+        text-align: left;
+    }
+    
+    
+}

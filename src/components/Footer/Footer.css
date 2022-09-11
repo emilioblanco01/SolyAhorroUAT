@@ -1,0 +1,122 @@
+.WrapperFooter {
+    width: 100%;
+    background-color: #fff;
+    padding: 2rem 2.5rem 1rem 2.5rem;
+}
+
+.WrapperFooterCot {
+    width: 100%;
+    background-color: #fff;
+    padding: 2rem 2.5rem 1rem 2.5rem;
+}
+
+.TopFooter {
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+}
+
+.ContainerFooter1 {
+    width: 30%;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.ContainerFooter2 {
+    width: 20%;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.ContainerFooter3 {
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.BottomFooter {
+    width: 100%;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.TextFooter1 {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    padding: 1px 0;
+}
+
+.TextFooter2 {
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+    text-align: left;
+    padding: 7px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.TextFooter3 {
+    padding-left: 7px;
+    padding-bottom: 10px;
+}
+
+
+.TitleFooter {
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+}
+
+.LogoImgFooter {
+    width: 230px;
+    margin: auto 0;
+    text-align: left;
+    padding-bottom: 8px;
+}
+
+.IconContactFo {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    background-color: #8bc540;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 30px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.ContainerRedesF {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width:900px) {
+    .TopFooter {
+        display: flex;
+    }
+
+    .ContainerFooter1 {
+        margin-bottom: 0;
+    }
+
+    .ContainerFooter2 {
+        margin-bottom: 0;
+    }
+
+    .ContainerFooter3 {
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 700px){
+    .WrapperFooterCot{
+        margin-top: 115vh;
+    }
+}

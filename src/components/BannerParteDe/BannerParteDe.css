@@ -1,0 +1,24 @@
+
+.ContainerParteDe{
+    width: 100%;
+    padding: 4rem 0;
+    text-align:center;
+    background-color: #ffff;
+}
+
+.BannerParteDe{
+    width: 70%;
+    margin: 3rem 0;
+}
+
+.TextParteDe{
+    font-weight: 700;
+    font-size: 30px;
+    opacity: .8;
+}
+
+@media (min-width:900px) {
+    .BannerParteDe{
+        width: 500px;
+    }
+}

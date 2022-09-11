@@ -1,0 +1,81 @@
+.WrapperInfoFinanza{
+    background-color: #e6e7ee;
+    width: 100%;
+    padding: 0 0.8rem;
+}
+.TitleInfoFinanza{
+    text-align: center;
+    width: 100%;
+    padding: 4rem 0;
+}
+.TitleIF1{
+    color: #8bc540;
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+    margin: 0;
+}
+.TitleIF2{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.WrapperBlocksIF{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.BlockImgIF{
+    background-color: #8bc540;
+    min-height: 250px;
+    width: 50%;
+    margin: 1.2rem;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+#BlockImgIF1{
+    background-image: url('../../assets/images/funding/funding-1.jpg');
+}
+#BlockImgIF2{
+    background-image: url('../../assets/images/funding/funding-2.jpg');
+}
+#BlockImgIF3{
+    background-image: url('../../assets/images/funding/funding-3.jpeg');
+}
+.BlockImgFunding{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ImageIF{
+    width: 30%;
+    margin: 0 0.5rem ;
+}
+.BlockImgIF:hover{
+    box-shadow: 6px 9px 26px -8px hsl(0deg 0% 51% / 40%);
+}
+
+@media (min-width:1000px) {
+    .BlockImgIF{
+        display: block;
+    }
+    .ImageIF{
+        width: 18%;
+        margin: 0;
+    }
+    .BlockImgFunding{
+        justify-content: space-between;
+    }
+}
+
+@media (min-width:900px) {
+    .WrapperInfoFinanza{
+        padding: 0 5rem;
+    }
+    
+}

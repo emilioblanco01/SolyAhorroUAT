@@ -1,0 +1,150 @@
+.WrapperDashA{
+    width: 100%;    
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content:flex-start;
+}
+p {
+    margin: 0px;
+}
+.ConteDACitas{
+    max-width: 600px;
+    background-color: #ffff;
+    box-shadow: 8px 6px 20px -2px rgba(0,0,0,0.1);
+    border: 1px solid #ebebeb8e;
+    border-radius: 5%;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem;
+}
+.DACitasRow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-content: center;
+    padding: 0.8rem 0rem ;
+}
+.DACitasTitle{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #262626;
+    text-align: left;
+    border-bottom: 3px solid #8FC456;
+}
+.DACitasNum{
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 1rem;
+    color: #8FC456;
+}
+
+.DACita{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1rem;
+    height: 70px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.DACita:hover{
+    background-color: #a1a1a131;
+}
+.DACitaImgUser{
+    width: 15%;
+    max-width: 55px;
+    margin: auto 0;
+}
+.DACitaInfoB{
+    width: 65%;
+    padding-left:0.6rem;
+    padding-right:0.6rem;
+    margin: auto;
+}
+.DACitaTitle{
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: left;
+}
+.DACitaText1{
+    color: #a1a1a1;
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.DACitaText2{
+    color: #181717;
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.DACitaDate{
+    width: 20%;
+    margin: auto;
+}
+.DACitaText2{
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-align: left;
+    /* margin: auto; */
+}
+
+.DACitasPages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.DACitasPageSelect{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #8FC456;
+    padding: 0 0.1rem;
+    margin: auto 0.2rem;
+    border-bottom: 2px solid #8FC456;;
+}
+
+.DACitasPage{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #8fc45694;
+    padding: 0 0.1rem;
+    margin: auto 0.2rem;
+}
+
+@media (min-width:600px) {
+    .ConteDACitas{
+        width: 90%;
+        margin: 0px auto auto;
+        /* max-width: 65; */
+    }
+}
+@media (min-width:900px) {
+    .WrapperDashA{
+        width: 65%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content:flex-start;
+        padding-top: 0.5rem;
+        max-height: 700px;
+    }
+    .ConteDAEstadi{
+        width: 80%;
+    }
+    .ConteDACitas{
+        width: 90%;
+        max-height: 650vh;
+        /* overflow-y: scroll; */
+    }
+    .DACitasConte{
+        width: 100%;
+        max-height: 600px;
+        overflow-y: auto;
+    }
+}
+

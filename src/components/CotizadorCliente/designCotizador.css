@@ -1,0 +1,11 @@
+.Cotizador{
+    background-color: white;
+    height: max-content;
+    display: flex;
+}
+
+@media(max-width: 900px){
+    .Cotizador{
+        display: block;
+    }
+}

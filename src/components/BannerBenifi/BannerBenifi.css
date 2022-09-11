@@ -1,0 +1,57 @@
+.WrapperBenifi{
+    width: 100%;
+    background-color: #8bc540;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem;
+}
+
+.ContainerBenifi{
+    text-align: center;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.ContainerIcon{
+    background-color: #fff;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 80px;
+    padding: 1rem;
+}
+
+.Icon{
+    width:100%;
+}
+
+.Message{
+    width: 100%;
+    text-align: center;
+}
+
+.TextBig{
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 0.3rem;
+}
+
+.TextSmall{
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+    margin: 0;
+}
+
+@media (min-width:900px) {
+    .ContainerBenifi{
+        width: 25%;
+        padding: 4rem 0;
+    } 
+
+    .WrapperBenifi{
+        padding: 0;
+    }
+}

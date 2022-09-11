@@ -1,0 +1,89 @@
+.WrapperCerti{
+    width: 100%;
+    padding: 1rem 1rem;
+    text-align:center;
+    background-color: #e6e7ee;
+}
+
+.TitleInfoCerti{
+    text-align: center;
+    width: 100%;
+    padding: 2.5rem 0;
+}
+.TitleCerti1{
+    color: #8bc540;
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+    margin: 0;
+}
+.TitleCerti2{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+.WrapperSlider{
+    width: 70%;
+    margin: 2rem auto; 
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    z-index:1
+}
+.WrapperSliderImgs{
+    min-width: 100%;
+    display: flex;
+    flex-wrap:nowrap;
+    position: absolute;
+    z-index: 5;
+}
+.SliderImg{
+    max-height: 200px;
+    padding: 0 4rem;
+    transition: .3s ease all;
+}
+.ContainerArrowC{
+    position: absolute;
+    z-index: 7;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.SliderArrow{
+    color:  #8bc540;
+    border: none;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 30px;
+    margin: auto 0;
+
+    
+}
+#CertiArrowLeft{
+    left: 0;
+}
+#CertiArrowRight{
+    right: 0;
+}
+
+@media (min-width:900px) {
+    .SliderImg{
+        padding: 0 5rem;
+    }
+
+}
+
+@media (min-width:600px) {
+    .SliderImg{
+        padding: 0 4rem;
+    }
+    .WrapperSlider{
+        width: 80%;
+    }
+}

@@ -1,0 +1,149 @@
+.WrapperFormCotiza1{
+    background-color: #e6e7ee;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    padding: 5rem 0;
+}
+.WrapperFormCotiza2{
+    background-color: #fff;
+    width: 85%; 
+    margin: auto;
+    box-shadow: 6px 9px 26px -8px hsl(0deg 0% 51% / 40%);
+    display: flex;
+    flex-wrap: wrap; 
+}
+.ContactFC{
+    background-color: #8bc540;
+    width: 100%;
+    text-align: left;
+    padding: 1rem 3rem;
+}
+.TitleContactFC{
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+}
+.TextContactFC{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    margin: 2rem 0;
+}
+.IconContactFC{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    background-color: #a3d167;
+    justify-content: center;
+    min-width: 3rem;
+    height: 3rem;
+    border-radius: 30px;
+}
+.Text1ContactFC{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+    padding-left: 1rem;
+}
+.Text2ContactFC{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+    padding-left: 0.5rem;
+}
+.FormularioFC{
+    width: 100%;
+    padding: 0 5rem;
+}
+.FormTitleFC{
+    width: 100%;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 1rem 0;
+}
+.FormFC{
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.InputFC1{
+    height: 52px;
+    box-shadow: inset 0 1px 2px rgb(38 38 38 / 10%);
+    border: 1px solid transparent;
+    max-width: 100%;
+    width: 100%;
+    border-color: #dbdbdb;
+    border-radius: 4px;
+    color: #363636;
+    padding-left: 0.5rem;
+    margin: 1rem 0;
+    display: block;
+    font-size: 0.9rem;
+}
+
+.InputFC2{
+    height: 52px;
+    box-shadow: inset 0 1px 2px rgb(38 38 38 / 10%);
+    border: 1px solid transparent;
+    max-width: 100%;
+    width: 100%;
+    border-color: #dbdbdb;
+    border-radius: 4px;
+    color: #363636;
+    padding-left: 0.5rem;
+    margin: 1rem 0;
+    font-size:  0.9rem;
+}
+
+.ButtonFC{
+    width: 100%;
+    background-color: #8bc540;
+    border-color: transparent;
+    box-shadow: none;
+    opacity: .5;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+    margin: 2rem 0;
+}
+.ButtonFCAct{
+    width: 100%;
+    background-color: #8bc540;
+    border-color: transparent;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+#comment{
+    height: 152px;
+}
+
+@media (min-width:1000px) {
+    .FormularioFC{
+        width: 60%;
+    }
+    .ContactFC{
+        width: 40%;
+    }
+    .InputFC2{
+        width: 45%;
+    }
+}

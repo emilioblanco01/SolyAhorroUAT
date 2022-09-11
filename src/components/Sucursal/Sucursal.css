@@ -1,0 +1,60 @@
+.WrapperSucursal{
+    width: 100%;
+    background-color: #fff;
+    padding: 3rem 2rem ;
+}
+.SucursalTitle{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+.Text2ContactSC{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 1rem;
+    margin: 0;
+}
+.Text1ContactSC{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 1rem;
+    margin: 0.2rem 0;
+}
+.ContainerSc{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 1rem 0;
+}
+.SucursalContact{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.IconContactSC{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    background-color: #8bc540;
+    justify-content: center;
+    min-width: 3rem;
+    height: 3rem;
+    border-radius: 30px;
+}
+.SucursalMap{
+    background-color: #8bc540;
+    width: 100%;
+    min-height: 400px;
+    margin: 2rem 0;
+}
+
+@media (min-width:900px) {
+    .WrapperSucursal{
+        padding: 3rem 8rem ;
+    }
+}

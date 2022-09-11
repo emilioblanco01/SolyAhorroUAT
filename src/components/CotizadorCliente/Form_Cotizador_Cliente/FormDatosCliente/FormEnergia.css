@@ -1,0 +1,113 @@
+.WrapperFormEnergia{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.LabelFCoti3{
+    width: 60%;
+    padding-left: 1rem;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 1.5rem auto;
+    display: flex;
+    justify-content: left;
+}
+
+.BlockRFEnergia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.InputFCotiNum1{
+    width: 65%;
+    height: 2.5rem;
+    margin: 1rem auto;
+    border: none;
+    background-color: #EBEBEB;
+    border: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.InputFCotiNum1 input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    min-height: 100%;
+    border: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #EBEBEB;
+    width: 100%;
+}
+.InputFCotiNum1 input::placeholder {
+    color: #9C9C9C;
+    font-size: 14px;
+    font-weight: 300;
+}
+.InputFCotiNum1:after{
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    content: 'KW';
+    color: #9C9C9C;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding-right: 1rem;
+}
+
+.InputFCotiNum1 input[type=number]::-webkit-inner-spin-button, 
+.InputFCotiNum1 input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.InputFCotiNum2{
+    width: 65%;
+    height: 2.5rem;
+    margin: 1rem auto;
+    border: none;
+    background-color: #EBEBEB;
+    border: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.InputFCotiNum2 input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    min-height: 100%;
+    border: none;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    background-color: #EBEBEB;
+    width: 100%;
+}
+.InputFCotiNum2 input::placeholder {
+    color: #9C9C9C;
+    font-size: 14px;
+    font-weight: 300;
+}
+.InputFCotiNum2:after{
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    content: '$';
+    color: #9C9C9C;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding-left: 1rem;
+}
+
+.InputFCotiNum2 input[type=number]::-webkit-inner-spin-button, 
+.InputFCotiNum2 input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

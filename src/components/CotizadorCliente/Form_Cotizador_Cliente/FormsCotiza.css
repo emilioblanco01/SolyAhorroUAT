@@ -1,0 +1,143 @@
+.WrapperFormsCotiza{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.FormsCotiza{
+    width: 65%;
+}
+.FCotizaTitle{
+    color: #295B85;
+    max-width: fit-content;
+    border-bottom: 3px solid #22b601;
+    padding-right: 4rem;
+    padding-bottom: 0.7rem;
+    margin: 4rem;
+    margin-bottom: 2.5rem;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: left;
+}
+.TimeLineCotizador{
+    width: 35%;
+    min-height: 100%;
+    margin-top: 3px;
+    background-color: rgb(221, 221, 221);
+}
+.FCotiLineTitle{
+    color: #295B85;
+    max-width: fit-content;
+    border-bottom: 3px solid #22b601;
+    margin: 3.6rem 4rem 2.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.WrapperTimeline{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+}
+.ContainerTimeline{
+    text-align: left;
+    width: 100%;
+    margin: auto;
+    padding-right: 2rem;
+}
+.TitleTL{
+    position: absolute;
+    z-index: 5;
+    left: 2rem;
+    font-size: 0.8rem;
+    width: max-content;
+    font-weight: 400;
+}
+.TitleTLSelect{
+    position: absolute;
+    z-index: 5;
+    left: 2rem;
+    font-size: 0.9rem;
+    width: max-content;
+    font-weight: 600;
+    
+}
+.PointTLFalse{
+    position: relative;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 5rem;
+    background-color: #d4d3d3;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.LineTLFalse{
+    width: 0.2rem;
+    height: 3.5rem;
+    background-color: #d4d3d3;
+    margin: auto;
+}
+.PointTLTrue{
+    position: relative;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 6rem;
+    background-color: #22b601;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-timing-function: ease-in;
+    transition: 0.8s;
+}
+.PointTLFalse i{
+    padding-top: 0.1rem;
+    font-size: 0.9rem;
+    color: #ffff;
+    margin: auto;
+    display: none;
+    transition-timing-function: ease-in;
+    transition: 0.8s;
+}
+.PointTLTrue i{
+    padding-top: 0.1rem;
+    font-size: 0.9rem;
+    color: #ffff;
+    margin: auto;
+    transition-timing-function: ease-in;
+    transition: 0.8s;
+}
+.LineTLTrue{
+    width: 0.2rem;
+    height: 3.5rem;
+    background-color: #22b601;
+    margin: auto;
+}
+
+@media(max-width: 900px){
+    .WrapperFormsCotiza{
+        width: 100%;
+        height: 120vh;
+    }
+}
+
+@media(max-width: 700px){
+    .WrapperFormsCotiza{
+        display: block;
+    }
+    .FormsCotiza{
+        width: 100%;
+        margin-top: -2rem;
+    }
+    .TimeLineCotizador{
+        width: 100%;
+        height: max-content;
+        position: absolute;
+        margin-top: 10rem;
+    }
+}

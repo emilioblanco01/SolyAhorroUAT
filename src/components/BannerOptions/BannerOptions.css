@@ -1,0 +1,144 @@
+
+.Wrapper1 {
+    background-color: #fff; 
+}
+
+.Wrapper2 {
+    margin: 0;
+    display:flex;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+}
+
+.Title {
+    font-weight: 700;
+    font-size: 30px;
+    opacity: 0.8;
+    padding: 3.5rem 0;
+    text-align: center;
+    margin: 0;
+}
+
+.Container {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%; 
+}
+
+
+.Option-normal{
+    background-color: #ffff;
+    text-decoration: none;
+    width: 100%;
+    height: 25% !important;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 8px;
+    border-right: 1px solid #dbdbdb;
+    border-bottom:1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+    padding: 1rem 4rem;
+} 
+
+.Option-normal:hover{
+    background-color:  #f3f1f1;
+    cursor: pointer;
+}
+
+.Option-selected {
+    background-color:#8bc540;
+    text-decoration: none;
+    width: 100%;
+    height: 25% !important;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 8px;
+    border-right: none;
+    border-left: 1px solid #dbdbdb;
+    color:  #ffff ;
+    padding: 1rem 4rem;
+}
+
+.Description {
+    padding: 1rem 2rem;
+    width: 85%;
+    margin: auto;
+}
+
+.Destitle {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.DesParagraph{
+    font-weight: 500;
+    font-size: 16px;
+    margin: 1.5rem 0;
+}
+
+.Wrapper3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Image {
+    width: 35%;
+    display: none;
+}
+
+@media (min-width:1000px) {
+    .Wrapper2{
+        margin: 0 7rem;
+    }
+}
+@media (min-width:900px) {
+    .Container {
+        width: 25%; 
+    }
+    .Option-normal{
+        padding: 0;
+        background-color: #ffff;
+        text-decoration: none;
+        width: 100%;
+        height: 25% !important;
+        font-weight: 700;
+        font-size: 15px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-left: 8px;
+        border-right: 1px solid #dbdbdb;
+        border-bottom: none;
+        border-top: none;
+    } 
+    .Option-selected {
+        padding: 0;
+        background-color: #ffff;
+        font-weight: 700;
+        font-size: 15px;
+        border-top: 1px solid #dbdbdb;
+        border-bottom: 1px solid #dbdbdb;
+        border-left: 1px solid #dbdbdb;
+        color:  #8bc540;
+    }
+    .Wrapper2{
+        margin: 0 2rem;
+    }
+    .Description {
+        margin: 0;
+        width: 75%;
+    }
+    .Image {
+        display: block;
+    }
+}
+

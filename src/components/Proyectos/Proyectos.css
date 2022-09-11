@@ -1,0 +1,72 @@
+.WrapperProyectos{
+    width:100%;
+    background-color: #fff; 
+} 
+  
+.TitleProyectos{
+    font-weight: 700;
+    font-size: 30px;
+    opacity: 0.8;
+    padding: 3.5rem 0;
+    text-align: center;
+}
+    
+.ContainerProyectos{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+    
+.ImageBlockPro{
+    width: 50%;
+    height: 330px;
+    position: relative;
+}
+
+.TextContainerPro{
+    width:100%;
+    height:100%;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    cursor: pointer;    
+}
+   
+.TextContainerPro:hover{
+    background-color: rgba(0,0,0,.7);
+}
+.TextContainerPro:hover div{
+    display: block;;
+}
+
+.TextTitlePro{
+    font-weight: 700;
+    font-size: 22px;
+    color: #fff;
+    padding-bottom: 0.5rem;
+    text-align:center;
+    width:100%;
+    display: none;
+}
+    
+.TextDescPro{
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    width:100%;
+    text-align:center;
+    display: none;
+}
+
+.ImagePro{
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+}
+

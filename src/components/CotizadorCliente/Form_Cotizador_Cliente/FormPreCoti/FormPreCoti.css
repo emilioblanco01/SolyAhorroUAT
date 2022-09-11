@@ -1,0 +1,233 @@
+.WrapperFormPreCoti{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.LabelFCoti4{
+    width: 70%;
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-weight:700;
+    margin: 1rem auto;
+    text-align: center;
+}
+.LabelFCoti5{
+    width: 100%;
+    padding-left: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 1rem auto;
+    text-align: left;
+}
+
+
+/* The slider itself */
+.InputFCRange {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 70%; /* Full-width */
+  height: 0.5rem; /* Specified height */
+  background: #d4d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+  margin: 1rem auto;
+  margin-bottom: 2rem;
+}
+
+/* Mouse-over effects */
+.InputFCRange:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.InputFCRange::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 1.5rem; /* Set a specific slider handle width */
+  height: 1.5rem; /* Slider handle height */
+  background: rgb(75, 118, 55); /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.InputFCRange::-moz-range-thumb { 
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: rgb(75, 118, 55); /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.BlockRFPreCoti{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin-bottom: 1rem;
+}
+.LabelFCoti6{
+  width: 65%;
+  text-align: left ;
+  color: #295B85;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.ConteInputFCRange{
+  width: 70%;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  z-index: 1;
+}
+.MinFCRange{
+  position: absolute;
+  z-index: 5;
+  left: -0.5rem;
+  top: 2rem;
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #1d5481;
+}
+.MaxFCRange{
+  position: absolute;
+  z-index: 5;
+  right: -0.5rem;
+  top: 2rem;
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #1d5481;
+}
+
+.InputFCotiNumPorcent{
+  width: 65%;
+  height: 2.5rem;
+  margin: 1rem auto;
+  border: none;
+  background-color: #EBEBEB;
+  border: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.InputFCotiNumPorcent input{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  min-height: 100%;
+  border: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #EBEBEB;
+  width: 100%;
+}
+.InputFCotiNumPorcent input::placeholder {
+  color: #9C9C9C;
+  font-size: 14px;
+  font-weight: 300;
+}
+.InputFCotiNumPorcent:after{
+  position: absolute;
+  z-index: 3;
+  right: 0;
+  content: '( % )';
+  color: #9C9C9C;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding-right: 1rem;
+}
+
+.InputFCotiNumPorcent input[type=number]::-webkit-inner-spin-button, 
+.InputFCotiNumPorcent input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none; 
+margin: 0; 
+}
+
+.InputFCotiNumMoneda{
+  width: 65%;
+  height: 2.5rem;
+  margin: 1rem auto;
+  border: none;
+  background-color: #EBEBEB;
+  border: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.InputFCotiNumMoneda input{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  min-height: 100%;
+  border: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #EBEBEB;
+  width: 100%;
+}
+.InputFCotiNumMoneda input::placeholder {
+  color: #9C9C9C;
+  font-size: 14px;
+  font-weight: 300;
+}
+.InputFCotiNumMoneda:after{
+  position: absolute;
+  z-index: 3;
+  right: 0;
+  content: '$';
+  color: #9C9C9C;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding-right: 1rem;
+}
+
+.InputFCotiNumMoneda input[type=number]::-webkit-inner-spin-button, 
+.InputFCotiNumMoneda input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none; 
+margin: 0; 
+}
+/*SIgno Watts*/
+.InputFCotiWatts{
+  width: 65%;
+  height: 2.5rem;
+  margin: 1rem auto;
+  border: none;
+  background-color: #EBEBEB;
+  border: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.InputFCotiWatts input{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  min-height: 100%;
+  border: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #EBEBEB;
+  width: 100%;
+}
+.InputFCotiWatts input::placeholder {
+  color: #9C9C9C;
+  font-size: 14px;
+  font-weight: 300;
+}
+.InputFCotiWatts:after{
+  position: absolute;
+  z-index: 3;
+  right: 0;
+  content: 'W';
+  color: #9C9C9C;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding-right: 1rem;
+}

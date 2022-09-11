@@ -1,0 +1,106 @@
+.WrapperBPerfil{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-color: red;
+    overflow: hidden;
+}
+.ImgBPerfil{
+    position: absolute;
+    z-index: 5;
+    max-height:100%;
+    min-width:100%;
+}
+.GapBPerfil{
+    min-height: 5rem;
+}
+.InfoBPerfil{
+    position: absolute;
+    min-height:100%;
+    width: 100%;
+    z-index: 6;
+    background-color: #55881ed2;
+}
+.ContiBPerfil{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    padding-left: 1rem;
+}
+
+.TitleBPerfil{
+    width: 30%;
+    max-height: 2rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #ffff;
+    text-align: right;
+    margin: auto;
+    padding-left: 2rem;
+}
+.TextBPerfil{
+    width: 70%;
+    max-height: 2rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #ffff;
+    text-align: left;
+    margin: 0.6rem auto;
+    padding-left: 1rem;
+}
+.ContibuttonBPerfil{
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin: 3rem auto;
+    
+}
+.Button1BPerfil{
+    color: #262626;
+    display: block;
+    background-color: #ffff;
+    border: none;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 0.3rem 2rem;
+    cursor: pointer;
+    margin: 1rem auto;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 6px, rgba(0, 0, 0, 0.1) 0px 3px 6px; */
+    transition: 0.3s;
+}
+.Button1BPerfil:hover{
+    background-color: #8FC456;
+    color: #ffff;
+    
+}
+.Button2BPerfil{
+    display: block;
+    color: #262626;
+    background-color: #ffff;
+    border: none;
+    font-size: 0.6rem;
+    font-weight: 500;
+    padding: 0.3rem 2rem;
+    cursor: pointer;
+    margin: 1rem auto;
+    transition: 0.3s;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+}
+.Button2BPerfil:hover{
+    background-color: #8FC456;
+    color: #ffff;
+}
+
+@media (min-width:900px) {
+    .WrapperBPerfil{
+        width: 35%;
+        height: 700px;
+    }
+}

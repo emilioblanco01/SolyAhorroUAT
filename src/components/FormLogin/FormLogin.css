@@ -1,0 +1,119 @@
+.WrapperFormLogin{
+    width: 100%;
+    text-align: center;
+    background-color: #ffff;
+}
+
+.TitleFLogin{
+    color: #262626;
+    max-width: fit-content;
+    border-bottom: 3px solid #8FC456;
+    padding: 0 3rem;
+    margin: 3rem auto;
+    font-size: 30px;
+    font-weight: 600;
+}
+.ContainerFLogin{
+    width: 65%;
+    margin: auto;
+}
+.LabelFLogin{
+    width: 60%;
+    padding-right: 1rem;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.SubLabelFLogin{
+    padding-left: 0.5rem;
+}
+.InputFLogin{
+    width: 100%;
+    height: 2.5rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    border: none;
+    background-color: #EBEBEB;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.InputFLogin::placeholder {
+    color: #9C9C9C;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.FormLogin{
+    text-align: center;
+}
+.ButtonFLogin{
+    margin: 3rem auto;
+    color: #ffff;
+    background-color: #8FC456;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1rem 6rem;
+    cursor: pointer;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 6px, rgba(0, 0, 0, 0.1) 0px 3px 6px; */
+    transition: 0.3s;
+}
+.ButtonFLogin:hover{
+    background-color: #8FC456;
+}
+
+.InputFLoginPass{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1rem;
+    border: none;
+    background-color: #EBEBEB;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.InputFLoginPass::placeholder {
+    color: #9C9C9C;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.ContePassword{
+    position: relative;
+    width: 100%;
+    height: 2.5rem;
+    margin: auto;
+}
+.ContePassword button{ 
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+}
+.ContePassword i{ 
+    font-size: 0.8rem;
+    color: #9C9C9C;
+    padding-right: 0.5rem;
+    padding-top: 0.9rem;
+    cursor: pointer;
+}
+.ContePassword button::placeholder i{ 
+    color: #535353;
+}
+@media (min-width:900px) {
+    .WrapperFormLogin{
+        width: 65%;
+    }
+    .ContePassword{
+        width: 60%;
+    }
+    .InputFLogin{
+        width: 60%;
+    }
+    .LabelFLogin{
+        margin: auto;
+    }
+}

@@ -1,0 +1,35 @@
+
+.BlockTextIF2{
+    background-color: #fff;
+    padding: 2rem 2rem;
+    text-align: left;
+    width: 100%;
+    margin: 0.5rem;
+    min-height: 200px;
+}
+.BlockTtiletIF{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0.2rem 0;
+}
+.BlockText1IF{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 2rem 0;
+}
+.BlockText2IF{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 2rem 0;
+}
+.BlockTextIF2:hover{
+    box-shadow: 6px 9px 26px -8px hsl(0deg 0% 51% / 75%);
+}
+
+@media (min-width:1000px) {
+    .BlockTextIF2{
+        width: 30%;  
+        margin: 1.2rem;
+        min-height: 250px;
+    }
+}

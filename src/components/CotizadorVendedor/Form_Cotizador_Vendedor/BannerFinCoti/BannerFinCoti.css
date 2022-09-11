@@ -1,0 +1,15 @@
+.WrapperBannerFinCoti{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;   
+}
+.TitleBannerFinCoti{
+    padding-top: 6rem;
+    font-size: 1.2rem;
+    width: 80%;
+    font-weight: 500;
+    color: #295B85;
+}

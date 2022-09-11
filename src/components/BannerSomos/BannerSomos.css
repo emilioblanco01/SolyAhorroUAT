@@ -1,0 +1,25 @@
+.WrapperSomos{
+    background-color: #e6e7ee;
+    padding: 3rem 2.5em;
+}
+.TitleSomos{
+    font-weight: 700;
+    font-size: 28px;
+    opacity: 0.8;
+    padding-bottom: 1rem;
+    margin: 0;
+}
+.DescriptionSomos{
+    width:100%;
+    font-weight: 400;
+    font-size: 19px;
+    line-height:1.5em;
+    margin: 0;
+}
+
+@media (min-width:900px) {
+    .WrapperSomos{
+        padding: 3rem 7em;
+    }
+
+}

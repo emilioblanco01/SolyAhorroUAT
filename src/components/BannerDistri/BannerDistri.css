@@ -1,0 +1,34 @@
+.ContainerDistri{
+    width: 100%;
+    padding: 4rem 1rem;
+    text-align:center;
+    background-color: #e6e7ee;
+}
+
+.BannerDistri{
+    width: 40%;
+}
+
+.TextDistri{
+    font-weight: 700;
+    font-size: 30px;
+    opacity: .8;
+}
+
+.ImgContainerDistri{
+    width:80%;
+    text-align:center;
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+@media (min-width:900px) {
+    .BannerDistri{
+        width: 30%;
+    }    
+    .ContainerDistri{
+        padding: 4rem;
+    }
+}
